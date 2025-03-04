@@ -86,9 +86,26 @@ Quand le personnage saute, il peut :
 
 Quand le pernnage est étourdi pendant quelques secondes, il ne peut rien faire
 
-### Scénario B
+### Scénario B - Flying nugget airlines
 
-### Scénario C
+Dû à une augmentation du traffic aérien et en attendant l'ajout de nouvelles pistes d'atterissage pour accueillir au mieux ce traffic, une compagnie aérienne a besoin d'un nouveau système pour la tour de contrôle.
+
+Ce système doit permettre de faire la gestion de l'atterissage et du décollage des avions sur les difféntes pistes, au travers de la tour de contrôle.
+
+C'est la tour de contrôle qui a responsabilité de gérer la communication entre les avions et les pistes d'atterissage et d'opérer les différentes actions entre elles.
+
+### Scénario C - TéléKommande
+
+Une compagnie souhaite s'insérer sur le marché des télévisions intélligentes, où les télécommmandes ont des boutons permettant d'afficher directement des applications comme Netflix, Amazon Prime, Disney+, et les chaînes courantes. On peut effectuer des actions sur la télévision associée. On pourrait effectuer les actions suivantes :
+
+- Allumer la télévision
+- Eteindre la télévision
+- Bouton pour lancer l'application Netflix
+- Bouton pour lancer l'application Amazon Prime
+- Bouton pour lancer l'application Disney+
+- Bouton pour afficher un numéro de chaîne
+
+Dans le futur, notre algorithme doit pouvoir effectuer un retour en arrière sur les actions. Par exemple, après avoir allumer la télévision, mis Netflix puis Amazon Prime, un bouton pour revenir en arrière permettrait de revenir sur la chaîne/application précédemment lancée.
 
 ### Scénario D - IAvomatique
 
@@ -99,6 +116,27 @@ Les clients peuvent donc choisir comment trier les vêtements de plusieurs faço
 - Par type de tissu (coton, laine, synthéthique)
 - Par niveau de saleté (vêtements très sales séparées des autres)
 
-### Scénario E
+### Scénario E - Le Coin des Lecteurs Paresseux
 
-### Scénario F
+Une grande bibliothèque prestigieuse souhaite permettre à ses lecteurs paresseux de ne pas passer trop de temps à trouver un nouveau livre à lire à découvrir.
+Cette bibliothèque met en place un logiciel permettant de parcourir les livres de différentes façon, selon un type de parcours.
+
+Le lecteur, depuis une interface, peut choisir de parcourir les livres par :
+- Nom de l'oeuvre
+- Auteur
+- Genre littéraire
+- Date d'acquisition de la bibliothèque
+
+Lorsqu'il lance une recherche en indiquant le type de recherche, un livre lui est présenté à l'écran. Il peut faire suivant pour voir le prochain livre, etc. Jusqu'à trouver un livre qui lui convient dont il pourra trouver le numéro de la zone et le numéro d'emplacement dans la bibliothèque pour le trouver et le lire.
+
+### Scénario F - Picsou Bank
+
+Dans une banque renommée, les prêts doivent être approuvés dans la hierarchie de la banque en fonction du montant du prêt.
+
+En fonction du montant, le prêt doit être approuvé par un responsable accrédité pour valider le montant.
+
+Pour les montants entre 
+- 0 et 100 000, le prêt est approuvé par l'employé de la banque
+- 100 000 et 500 000, le prêt est approuvé par le manager de l'équipe
+- 500 000 et 10 000 000, le prêt est approuvé par le chef de département
+- 10 000 000 et plus, le prêt est approuvé par le directeur Financier
