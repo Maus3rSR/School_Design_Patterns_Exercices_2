@@ -1,7 +1,7 @@
-# TP noté sur les designs patterns
+# TP sur les designs patterns
 
 - Dans chacun des scénarios, choisissez un design pattern adapté et écrivez le pseudo-code correspondant au scénario.
-- Vous pouvez utiliser le langage de votre choix (Python, JavaScript, C#, Java, etc.) pour écrire les exercices.
+- Par défaut nous utilisons le langage TypeScript. Néanmoins vous pouvez utiliser le langage de votre choix (Python, JavaScript, C#, Java, etc.) pour écrire les exercices.
 - Le code n'a pas forcément besoin d'être fonctionnel, le but est d'écrire du pseudo-code représentant un design pattern. Cependant cela est mieux si le langage ne relève pas d'erreur à l'écriture du code dans le cas des langages typés.
 - Pour chaque design pattern implémenté, écrivez un exemple d'utilisation.
 
@@ -122,6 +122,7 @@ Une grande bibliothèque prestigieuse souhaite permettre à ses lecteurs paresse
 Cette bibliothèque met en place un logiciel permettant de parcourir les livres de différentes façon, selon un type de parcours.
 
 Le lecteur, depuis une interface, peut choisir de parcourir les livres par :
+
 - Nom de l'oeuvre
 - Auteur
 - Genre littéraire
@@ -135,7 +136,8 @@ Dans une banque renommée, les prêts doivent être approuvés dans la hierarchi
 
 En fonction du montant, le prêt doit être approuvé par un responsable accrédité pour valider le montant.
 
-Pour les montants entre 
+Pour les montants entre
+
 - 0 et 100 000, le prêt est approuvé par l'employé de la banque
 - 100 000 et 500 000, le prêt est approuvé par le manager de l'équipe
 - 500 000 et 10 000 000, le prêt est approuvé par le chef de département
