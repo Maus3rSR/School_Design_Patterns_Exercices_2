@@ -247,7 +247,7 @@ function main() {
   towerControl.register(...planes, ...runways);
 
   const aFlyingPlane = planes.find((plane) => plane.is("flying"))!;
-  const offPlanes = planes.filter((plane) => !plane.is("flying"));
+  const offPlanes = planes.filter((plane) => plane.is("off"));
 
   offPlanes.forEach((plane) => plane.askForTakeoff());
 
